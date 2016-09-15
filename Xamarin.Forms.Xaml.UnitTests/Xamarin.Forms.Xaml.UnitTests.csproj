@@ -368,6 +368,9 @@
     <Compile Include="XStaticException.xaml.cs">
       <DependentUpon>XStaticException.xaml</DependentUpon>
     </Compile>
+     <Compile Include="CompiledTypeConverter.xaml.cs" >
+       <DependentUpon>CompiledTypeConverter.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="..\.nuspec\Xamarin.Forms.Debug.targets" />
@@ -650,7 +653,11 @@
     <EmbeddedResource Include="NativeViewsAndBindings.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+<<<<<<< 3ca1fc8eca5c2e60a1c7ea04338be12088b177aa
     <EmbeddedResource Include="XStaticException.xaml">
+=======
+    <EmbeddedResource Include="CompiledTypeConverter.xaml" >
+>>>>>>> [XamlC] Compiled converters
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>
