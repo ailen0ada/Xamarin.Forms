@@ -653,11 +653,10 @@
     <EmbeddedResource Include="NativeViewsAndBindings.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-<<<<<<< 3ca1fc8eca5c2e60a1c7ea04338be12088b177aa
     <EmbeddedResource Include="XStaticException.xaml">
-=======
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Include="CompiledTypeConverter.xaml" >
->>>>>>> [XamlC] Compiled converters
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>
